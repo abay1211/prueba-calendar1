@@ -1,102 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eventos - Sorteos</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      width: 80%;
-      margin: 20px auto;
-      text-align: center;
-    }
-    h1 {
-      color: #2e3b4e;
-    }
-    .event {
-      background-color: #ffffff;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .event h2 {
-      color: #1e2a3a;
-    }
-    .event p {
-      flex: 1;
-      text-align: left;
-    }
-    .button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-left: 10px;
-    }
-    .button:hover {
-      background-color: #45a049;
-    }
-    .download-button {
-      background-color: #007BFF;
-    }
-    .download-button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Sorteos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F9F9F9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2D74D1; /* Color principal de tu marca */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .event-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .event-card h2 {
+            font-size: 24px;
+            color: #2D74D1;
+        }
+
+        .event-card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2D74D1;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #2D74D1;
+            color: #fff;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container">
-    <h1>Eventos de Sorteos</h1>
+    <header>
+        <img src="https://github.com/abay1211/prueba-calendar1/blob/b5598e362dcad5fb333c93278a5c0a38384eb46b/logolgp.png?raw=true" alt="Logo de la marca">
+        <h1>Eventos Sorteos</h1>
+    </header>
 
-    <!-- Evento 1 -->
-    <div class="event">
-      <div>
-        <h2>Sorteo Especial Marzo</h2>
-        <p>Dos autos, dos bicis, 10 millones, un viaje all inclusive.</p>
-      </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Sorteo+Especial+Marzo&dates=20250327T210000Z/20250327T230000Z&details=Dos+autos,+dos+bicis,+10+millones,+un+viaje+all+inclusive" class="button" target="_blank">Agregar a Google Calendar</a>
+    <div class="container">
+        <div class="event-card">
+            <h2>06/05/2025 - Sorteo Carnaval</h2>
+            <p>Descripción: Un auto, una bici, 3 millones de pesos</p>
+        </div>
+
+        <div class="event-card">
+            <h2>27/03/2025 - Sorteo Especial Marzo</h2>
+            <p>Descripción: Dos autos, dos bicis, 10 millones, un viaje all inclusive</p>
+        </div>
+
+        <div class="event-card">
+            <h2>10/04/2025 - Golden Clover</h2>
+            <p>Descripción: Dos PlayStation 5, tres iPhones 16</p>
+        </div>
+
+        <div class="event-card">
+            <h2>24/04/2025 - Sorteo Mensual Abril</h2>
+            <p>Descripción: Viaje all inclusive, cine en casa, dos autos</p>
+        </div>
+
+        <a href="https://drive.google.com/uc?export=download&id=1dMiNMIMr0UVURG1FcCC5MwdWiv2BrS2X" class="button" download>Descargar eventos (.ics)</a>
     </div>
 
-    <!-- Evento 2 -->
-    <div class="event">
-      <div>
-        <h2>Golden Clover</h2>
-        <p>Dos PS5, tres iPhones 16.</p>
-      </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Golden+Clover&dates=20250410T000000Z/20250410T235900Z&details=Dos+PS5,+tres+iPhones+16" class="button" target="_blank">Agregar a Google Calendar</a>
+    <div class="footer">
+        <p>&copy; 2024 Tu Marca. Todos los derechos reservados.</p>
     </div>
-
-    <!-- Evento 3 -->
-    <div class="event">
-      <div>
-        <h2>Sorteo Mensual Abril</h2>
-        <p>Viaje All inclusive, cine en casa, dos autos.</p>
-      </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Sorteo+Mensual+Abril&dates=20250424T000000Z/20250424T235900Z&details=Viaje+All+inclusive,+cine+en+casa,+dos+autos" class="button" target="_blank">Agregar a Google Calendar</a>
-    </div>
-
-    <!-- Botón de descarga de archivo ICS -->
-    <div class="event">
-      <div>
-        <h2>Descarga todos los eventos</h2>
-        <p>Obtén un archivo para importar todos los sorteos a tu calendario.</p>
-      </div>
-      <a href="https://github.com/abay1211/prueba-calendar1/blob/f502a1b0df769dd3babd61a92050d40a4dc6cf7c/Eventos_Sorteos%20(3).ics?raw=true" class="button download-button" download="eventos-sorteos.ics">Descargar archivo ICS</a>
-    </div>
-
-  </div>
 
 </body>
 </html>
