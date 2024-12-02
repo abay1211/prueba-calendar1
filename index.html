@@ -7,141 +7,103 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-image: url('https://github.com/abay1211/prueba-calendar1/blob/main/1%20GANADOR%20DE%205MILLONES%20(2).jpg?raw=true');
+      background-image: url("https://github.com/abay1211/prueba-calendar1/raw/main/1%20GANADOR%20DE%205MILLONES%20(2).jpg");
       background-size: cover;
+      background-attachment: fixed;
       margin: 0;
       padding: 0;
-      color: #333;
     }
-
-    header {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    header img {
-      max-width: 200px;
-    }
-
     .container {
-      width: 90%;
-      max-width: 1000px;
+      width: 80%;
       margin: 20px auto;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.9);
       padding: 20px;
       border-radius: 10px;
     }
-
     h1 {
       color: #2e3b4e;
       font-size: 36px;
     }
-
     .event {
+      background-color: #ffffff;
       padding: 20px;
       margin: 20px 0;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
     }
-
-    .event-final {
-      background-color: black;
-      color: gold;
-    }
-
-    .event-special {
-      background-color: #FFD700; /* Dorado */
-    }
-
-    .event-monthly {
-      background-color: #ADD8E6; /* Azul claro */
-    }
-
-    .event-golden {
-      background-color: #90EE90; /* Verde claro */
-    }
-
     .event h2 {
-      margin: 0;
-      font-size: 20px;
+      color: #1e2a3a;
     }
-
     .event p {
       flex: 1;
-      margin: 0;
-      padding-left: 20px;
+      text-align: left;
     }
-
-    .icon {
-      width: 50px;
-      height: 50px;
-    }
-
     .button {
       background-color: #2D74D1;
       color: white;
       padding: 10px 20px;
       text-decoration: none;
       border-radius: 5px;
+      margin-left: 10px;
     }
-
     .button:hover {
       background-color: #1e5e94;
+    }
+    .download-button {
+      background-color: #007BFF;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+    header img {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 200px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="https://github.com/abay1211/prueba-calendar1/blob/main/logolgp.png?raw=true" alt="Logo">
+    <img src="https://github.com/abay1211/prueba-calendar1/raw/main/logolgp.png" alt="Logo de la marca">
   </header>
 
   <div class="container">
     <h1>Eventos de Sorteos</h1>
 
-    <!-- Sorteo Final -->
-    <div class="event event-final">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/4435/4435400.png" alt="Trofeo">
+    <!-- Sorteos -->
+    <div class="event">
       <div>
-        <h2>SORTEO FINAL - 13/12/2025 19Hs.</h2>
-        <p>400 millones de pesos en efectivo, 1 moto Honda Tornado 300L...</p>
+        <h2>SORTEO ESPECIAL “CARNAVAL”</h2>
+        <p>06/03/2025 21Hs - 20 millones de premios en efectivo, 63 ganadores.</p>
       </div>
-      <a href="#" class="button">Agregar a Google Calendar</a>
+      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=SORTEO+ESPECIAL+CARNAVAL&dates=20250306T210000Z/20250306T230000Z&details=20+millones+de+premios+en+efectivo,+63+ganadores" class="button" target="_blank">Agregar a Google Calendar</a>
     </div>
 
-    <!-- Sorteo Especial -->
-    <div class="event event-special">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="Estrella">
+    <div class="event">
       <div>
-        <h2>SORTEO ESPECIAL “CARNAVAL” - 06/03/2025 21Hs.</h2>
-        <p>20 millones de premios en efectivo, 63 ganadores.</p>
+        <h2>SORTEO MENSUAL MARZO</h2>
+        <p>27/03/2025 21Hs - 45 millones de premios en efectivo, 2 motos Honda Navi 110cc, 1 moto Cf Rz 400nk.</p>
       </div>
-      <a href="#" class="button">Agregar a Google Calendar</a>
+      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=SORTEO+MENSUAL+MARZO&dates=20250327T210000Z/20250327T230000Z&details=45+millones+de+premios+en+efectivo,+2+motos+Honda+Navi+110cc,+1+moto+Cf+Rz+400nk" class="button" target="_blank">Agregar a Google Calendar</a>
     </div>
 
-    <!-- Sorteo Mensual -->
-    <div class="event event-monthly">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Calendario">
+    <!-- Agregar más eventos aquí siguiendo el formato anterior -->
+
+    <!-- Botón de descarga de archivo ICS -->
+    <div class="event">
       <div>
-        <h2>SORTEO MENSUAL MARZO - 27/03/2025 21Hs.</h2>
-        <p>45 millones de premios en efectivo, 2 motos Honda Navi...</p>
+        <h2>Descarga todos los eventos</h2>
+        <p>Obtén un archivo para importar todos los sorteos a tu calendario.</p>
       </div>
-      <a href="#" class="button">Agregar a Google Calendar</a>
+      <a href="https://tu-enlace-de-archivo-ics-aqui.com" class="button download-button" download="eventos-sorteos.ics">Descargar archivo ICS</a>
     </div>
 
-    <!-- Sorteo Golden Clover -->
-    <div class="event event-golden">
-      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/616/616494.png" alt="Trébol">
-      <div>
-        <h2>SORTEO GOLDEN - 10/04/2025 13Hs.</h2>
-        <p>10 millones de premios en efectivo, 10 kits materos LGP...</p>
-      </div>
-      <a href="#" class="button">Agregar a Google Calendar</a>
-    </div>
   </div>
+
 </body>
 </html>
-
