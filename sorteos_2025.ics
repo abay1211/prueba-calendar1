@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:SORTEO ESPECIAL “CARNAVAL”
+DTSTART:20250306T210000
+DESCRIPTION:20 millones de premios en efectivo, 63 ganadores
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL MARZO
+DTSTART:20250327T210000
+DESCRIPTION:45 millones de premios en efectivo, 2 motos Honda Navi 110cc, 1 moto Cf Rz 400nk.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN
+DTSTART:20250410T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL ABRIL
+DTSTART:20250424T210000
+DESCRIPTION:40 millones de premios en efectivo, 1 moto Honda Navi 110cc, 1 moto Honda XR 190cc.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20250515T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO ESPECIAL MAYO “MES DEL TRABAJADOR”
+DTSTART:20250529T210000
+DESCRIPTION:45 millones de premios en efectivo, 1 combo de electrodomésticos (1 heladera, 1 lavarropas, 1 microondas, 1 aire acondicionado), 1 auto Fiat Mobi Trekking.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20250612T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO ESPECIAL JUNIO “ESPECIAL PAPÁ”
+DTSTART:20250626T210000
+DESCRIPTION:45 millones de premios en efectivo, 1 combo “TÚ CINE EN CASA” (1 smart tv 60”, 1 barra de sonido, 2 sillones relax 1 cuerpo), 1 moto Honda Navi 110cc, 1 moto Honda Wave 110cc, 1 viaje al caribe “ALL INCLUSIVE” para dos personas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20250710T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL JULIO
+DTSTART:20250710T210000
+DESCRIPTION:50 millones de premios en efectivo, 1 viaje al caribe “ALL INCLUSIVE” para dos personas, 1 moto Honda Tornado 300cc, 1 auto Citroën VTi Feel My 24.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20250814T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 2 Play Station 5, 5 parlantes JBL, 5 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO ESPECIAL AGOSTO “AGUINALDO” (pago de contado)
+DTSTART:20250814T210000
+DESCRIPTION:30 millones de premios en efectivo.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL AGOSTO
+DTSTART:20250828T210000
+DESCRIPTION:40 millones de premios en efectivo, 1 moto Honda Navi 110cc, 1 moto Honda XR 190cc.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20250911T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL SEPTIEMBRE
+DTSTART:20250925T210000
+DESCRIPTION:40 millones de premios en efectivo, 1 moto Honda Navi 110cc, 1 moto Honda XR 190cc.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20251009T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO ESPECIAL OCTUBRE “ESPECIAL MAMÁ”
+DTSTART:20251030T210000
+DESCRIPTION:45 millones de premios en efectivo, 1 combo “TÚ CINE EN CASA” (1 smart tv 60”, 1 barra de sonido, 2 sillones relax 1 cuerpo), 1 viaje al caribe “ALL INCLUSIVE” para dos personas, 1 moto Honda Navi 110cc, 1 viaje en crucero “ALL INCLUSIVE” para dos personas.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO GOLDEN CLOVER
+DTSTART:20251113T130000
+DESCRIPTION:10 millones de premios en efectivo, 10 kits materos LGP, 1 Play Station 5, 3 sillones gamers, 3 parlantes JBL, 3 bicicletas MB, 1 Iphone 16, 1 Notebook.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO MENSUAL NOVIEMBRE
+DTSTART:20251127T210000
+DESCRIPTION:40 millones de premios en efectivo, 1 moto Honda Navi 110cc, 1 moto Honda XR 190cc.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SORTEO FINAL
+DTSTART:20251213T190000
+DESCRIPTION:400 millones de pesos en efectivo, 1 moto Honda Tornado 300L, 1 Citroën Berlingo Furgón HDI92 BUSSINESS AM 22.5 0 KM, 1 Citroën C3 Vti Feel MY 24 0 KM, 1 Peugeot 208 allure AM25 0 KM, 1 Renault Kwid Eléctrico e-tech 100% 0 KM, 1 Peugeot 2008 active T200 0 KM, 1 Fiat Fastback turbo 270 1.3 A T6 0 KM, 1 Ford Maverick pick up 2.0L XLT 0 KM, 1 Ford Territory titanium 1.8 0 KM, 1 DEPARTAMENTO en CÓRDOBA CAPITAL.
+END:VEVENT
+END:VCALENDAR
