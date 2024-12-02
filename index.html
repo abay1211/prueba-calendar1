@@ -7,113 +7,141 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      background-image: url('https://github.com/abay1211/prueba-calendar1/blob/main/1%20GANADOR%20DE%205MILLONES%20(2).jpg?raw=true'); /* Fondo con la trama */
-      background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
-      background-position: center center; /* Centra la imagen */
+      background-image: url('https://github.com/abay1211/prueba-calendar1/blob/main/1%20GANADOR%20DE%205MILLONES%20(2).jpg?raw=true');
+      background-size: cover;
       margin: 0;
       padding: 0;
+      color: #333;
     }
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
     .container {
-      width: 80%;
+      width: 90%;
+      max-width: 1000px;
       margin: 20px auto;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para legibilidad */
+      background-color: rgba(255, 255, 255, 0.8);
       padding: 20px;
       border-radius: 10px;
     }
+
     h1 {
       color: #2e3b4e;
       font-size: 36px;
     }
+
     .event {
-      background-color: #ffffff;
       padding: 20px;
       margin: 20px 0;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
     }
+
+    .event-final {
+      background-color: black;
+      color: gold;
+    }
+
+    .event-special {
+      background-color: #FFD700; /* Dorado */
+    }
+
+    .event-monthly {
+      background-color: #ADD8E6; /* Azul claro */
+    }
+
+    .event-golden {
+      background-color: #90EE90; /* Verde claro */
+    }
+
     .event h2 {
-      color: #1e2a3a;
+      margin: 0;
+      font-size: 20px;
     }
+
     .event p {
       flex: 1;
-      text-align: left;
+      margin: 0;
+      padding-left: 20px;
     }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+
     .button {
-      background-color: #2D74D1; /* Color principal de tu marca */
+      background-color: #2D74D1;
       color: white;
       padding: 10px 20px;
       text-decoration: none;
       border-radius: 5px;
-      margin-left: 10px;
     }
+
     .button:hover {
-      background-color: #1e5e94; /* Sombra más oscura para el hover */
-    }
-    .download-button {
-      background-color: #007BFF;
-    }
-    .download-button:hover {
-      background-color: #0056b3;
-    }
-    header img {
-      display: block;
-      margin: 0 auto; /* Centra el logo */
-      max-width: 200px;
-      margin-bottom: 20px;
+      background-color: #1e5e94;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <img src="https://github.com/abay1211/prueba-calendar1/blob/main/logolgp.png?raw=true" alt="Logo de la marca">
+    <img src="https://github.com/abay1211/prueba-calendar1/blob/main/logolgp.png?raw=true" alt="Logo">
   </header>
 
   <div class="container">
     <h1>Eventos de Sorteos</h1>
 
-    <!-- Evento 1 -->
-    <div class="event">
+    <!-- Sorteo Final -->
+    <div class="event event-final">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/4435/4435400.png" alt="Trofeo">
       <div>
-        <h2>Sorteo Especial Marzo</h2>
-        <p>Dos autos, dos bicis, 10 millones, un viaje all inclusive.</p>
+        <h2>SORTEO FINAL - 13/12/2025 19Hs.</h2>
+        <p>400 millones de pesos en efectivo, 1 moto Honda Tornado 300L...</p>
       </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Sorteo+Especial+Marzo&dates=20250327T210000Z/20250327T230000Z&details=Dos+autos,+dos+bicis,+10+millones,+un+viaje+all+inclusive" class="button" target="_blank">Agregar a Google Calendar</a>
+      <a href="#" class="button">Agregar a Google Calendar</a>
     </div>
 
-    <!-- Evento 2 -->
-    <div class="event">
+    <!-- Sorteo Especial -->
+    <div class="event event-special">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/616/616490.png" alt="Estrella">
       <div>
-        <h2>Golden Clover</h2>
-        <p>Dos PS5, tres iPhones 16.</p>
+        <h2>SORTEO ESPECIAL “CARNAVAL” - 06/03/2025 21Hs.</h2>
+        <p>20 millones de premios en efectivo, 63 ganadores.</p>
       </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Golden+Clover&dates=20250410T000000Z/20250410T235900Z&details=Dos+PS5,+tres+iPhones+16" class="button" target="_blank">Agregar a Google Calendar</a>
+      <a href="#" class="button">Agregar a Google Calendar</a>
     </div>
 
-    <!-- Evento 3 -->
-    <div class="event">
+    <!-- Sorteo Mensual -->
+    <div class="event event-monthly">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Calendario">
       <div>
-        <h2>Sorteo Mensual Abril</h2>
-        <p>Viaje All inclusive, cine en casa, dos autos.</p>
+        <h2>SORTEO MENSUAL MARZO - 27/03/2025 21Hs.</h2>
+        <p>45 millones de premios en efectivo, 2 motos Honda Navi...</p>
       </div>
-      <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Sorteo+Mensual+Abril&dates=20250424T000000Z/20250424T235900Z&details=Viaje+All+inclusive,+cine+en+casa,+dos+autos" class="button" target="_blank">Agregar a Google Calendar</a>
+      <a href="#" class="button">Agregar a Google Calendar</a>
     </div>
 
-    <!-- Botón de descarga de archivo ICS -->
-    <div class="event">
+    <!-- Sorteo Golden Clover -->
+    <div class="event event-golden">
+      <img class="icon" src="https://cdn-icons-png.flaticon.com/512/616/616494.png" alt="Trébol">
       <div>
-        <h2>Descarga todos los eventos</h2>
-        <p>Obtén un archivo para importar todos los sorteos a tu calendario.</p>
+        <h2>SORTEO GOLDEN - 10/04/2025 13Hs.</h2>
+        <p>10 millones de premios en efectivo, 10 kits materos LGP...</p>
       </div>
-      <a href="https://github.com/abay1211/prueba-calendar1/blob/f502a1b0df769dd3babd61a92050d40a4dc6cf7c/Eventos_Sorteos%20(3).ics?raw=true" class="button download-button" download="eventos-sorteos.ics">Descargar archivo ICS</a>
+      <a href="#" class="button">Agregar a Google Calendar</a>
     </div>
-
   </div>
-
 </body>
 </html>
+
